@@ -1,26 +1,8 @@
-*{
-    font-family: sans-serif;
-    font-size: 18px;
-}
-
-.site-title, .footer{
-background-color: aquamarine;
-}
-
-.site-title{
-    color: rgb(228, 133, 184);
-}
-
-.my-image{
-    margin-top: 20px;
-    box-shadow: 0px 0px 2px 1px black;
-}
-
-ul {
+li {
     list-style-type: square;
 }
 
-ul li:nth-child(odd) {
+li:nth-child(odd) {
     background: rgb(228, 133, 184);
   }
 
