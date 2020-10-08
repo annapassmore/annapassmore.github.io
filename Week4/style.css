@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.site-title, .footer{
+background-color: aquamarine;
+}
+
+.site-title{
+    color: deeppink;
+}
+
+.my-image{
+    margin-top: 20px;
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background: deeppink;
+  }
+
+  .btn:link{
+color: black;
+text-decoration: none;
+  }
+
+  .btn:visited{
+      color:black;
+  }
+  .btn:hover{
+      color: deeppink;
+  }
+
+  .btn{
+      border: 2px solid red;
+      border-radius: 5px;
+      background-color: blue;
+  }
