@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin:0;
+    background-color: #fffeba;
+}
+
+
+
+/*nav bar*/
+.nav-bar img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 350px;
+}
+
+.nav{
+    margin-left: 470px;
+    margin-top: 5px;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: red;
+    font-size: 13px;
+    
+    
+}
+
+.nav li{
+    float: left;
+    margin-left: 100px;
+    list-style-type: none;
+    border-right: 1px solid black;
+}
+
+.nav a{
+    display: block;
+    padding: 0 28px;
+    color: black;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+.nav li:last-child{
+    border-right: none;
+}
+
+.text h3{
+    text-align: center;
+    color: white;
+    margin-top: -120px;
+    margin-bottom: 40px;
+    font-size: 70px;
+}
+
+/*Body*/
+
+.life h3{
+    margin-top: 80px;
+    margin-left: 510px;
+    font-size: 30px;
+    margin-bottom: -30px;
+}
+
+.life img{
+    width: 250px;
+    margin-left: 510px;
+    margin-top: 50px;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.life p{
+    margin-top: 45px;
+    margin-left: 510px;
+}
+
+
+
+/*facts*/
+
+.facts h2{
+    margin-top: 30px;
+    margin-left: 510px;
+    margin-bottom: 15px;
+}
+
+.facts ul{
+    margin-left: 525px;
+}
+
+/*Form*/
+
+.contact h2{    
+    margin-top: 15px;
+    margin-left: 505px;
+    margin-bottom: 15px;
+}
+
+.contact form{
+    width: 900px;
+    margin-left: 510px;
+    border: 2px solid black;
+}
+
+#name, #email{
+    width: 850px;
+    margin-left: 5px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+
+#message{
+    width: 850px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+
+.contact form label{
+    margin-left: 5px;
+}
+
+.radio{
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+
+.radio label{
+    margin: 20px;
+}
+
+.contact p{
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+
+.btn{
+    margin: 5px;
+    width: 60px;
+    height: 35px;
+}
+
+/*Footer*/
+
+footer{
+    margin-left: 1700px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
