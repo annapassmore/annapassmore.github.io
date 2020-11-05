@@ -16,7 +16,7 @@
 }
 
 .nav{
-    margin-left: 470px;
+    margin-left: 400px;
     margin-top: 5px;
 }
 
@@ -63,14 +63,14 @@
 
 .life h3{
     margin-top: 80px;
-    margin-left: 510px;
+    margin-left: 400px;
     font-size: 30px;
     margin-bottom: -30px;
 }
 
 .life img{
     width: 250px;
-    margin-left: 510px;
+    margin-left: 400px;
     margin-top: 50px;
     float: left;
     padding-right: 15px;
@@ -79,7 +79,7 @@
 
 .life p{
     margin-top: 45px;
-    margin-left: 510px;
+    margin-left: 400px;
 }
 
 
@@ -88,25 +88,25 @@
 
 .facts h2{
     margin-top: 30px;
-    margin-left: 510px;
+    margin-left: 400px;
     margin-bottom: 15px;
 }
 
 .facts ul{
-    margin-left: 525px;
+    margin-left: 415px;
 }
 
 /*Form*/
 
 .contact h2{    
     margin-top: 15px;
-    margin-left: 505px;
+    margin-left: 400px;
     margin-bottom: 15px;
 }
 
 .contact form{
     width: 900px;
-    margin-left: 510px;
+    margin-left: 400px;
     border: 2px solid black;
 }
 
@@ -157,7 +157,7 @@
 /*Footer*/
 
 footer{
-    margin-left: 1700px;
+    margin-left: 1500px;
     margin-top: 50px;
     margin-bottom: 25px;
 }
