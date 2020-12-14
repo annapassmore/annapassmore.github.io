@@ -1,0 +1,1062 @@
+html{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+button{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px){
+
+    
+
+/*Nav Bar*/
+.nav-bar{
+    margin-bottom: 100px;
+    background-color: #222222;
+    height: 200px;
+    width: 2113px;
+    margin-top: -8px;
+    margin-left: -8px;
+    
+}
+
+.nav-bar ul{
+    align-items: center;
+    margin-left: 475px;
+    margin-top: -50px;
+}
+
+.nav-bar ul li{
+    list-style: none;
+    display: inline;
+    padding: 14px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #c68d00;
+}
+
+#home{
+    height: 10px;
+    width: 50px;
+    color: #222222;
+    background-color: #c68d00;
+}
+
+.nav-bar img{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#search{
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+#mag{
+    font-size: 20px;
+    padding: 5.5px;
+    border-top:    2px solid #c68d00;
+    border-right:  2px solid #c68d00; 
+    border-bottom: 2px solid #c68d00;
+}
+
+/*Welcome Page*/
+#welcome{
+    margin-top: -80px;
+    background: url(images/main-banner.jpg) center no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.txt-btn{
+    background: rgba(46, 49, 49, 0.9);
+    height: 350px;
+    width: 1000px;
+    margin-left: 500px;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.txt-btn h1{
+    font-size: 70px;
+    color: white;
+    margin-left: 30px;
+    margin-top: -2px;
+}
+
+.txt-btn p{
+    font-size: 15px;
+    color: white;
+    margin-left: 30px;
+    margin-top: -30px;
+
+}
+
+.txt-btn button{
+    height: 60px;
+    width: 180px;
+    font-size: 18px;
+    background-color: #c68d00;
+    border: none;
+    margin-left: 30px;
+}
+
+#arrow{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+/*About*/
+
+.about{
+    height: 350px;
+    background-color: #ffe6ac;
+}
+
+.about h1{
+    font-size: 50px;
+    float: right;
+    margin-right: 1080px;
+}
+
+.about p{
+    float: right;
+    margin-right: 500px;
+    margin-top: -180px;
+}
+
+.about img{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+}
+
+/*Our Services*/
+
+.services h1{
+    font-size: 40px;
+    margin-left: 300px;
+}
+
+.top{
+    display: flex;
+    margin-left: 200px;
+}
+
+.bottom{
+    display: flex;
+}
+
+/*Digital*/
+
+.digital img{
+    margin-left: 100px;
+    width: 600px;
+}
+
+.digital p{
+    font-size: 15px;
+    margin-left: 5px;}
+
+.digital h2{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.digital button{
+    width: 550px;
+    height: 65px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.txt-btn-digital{
+    height: 220px;
+    width: 600px;
+    background-color: #ffe6ac;
+    margin-left: 100px;
+    margin-top: -29px;
+}
+
+/*Marketing*/
+
+.marketing img{
+    margin-left: 100px;
+    width: 600px;
+}
+
+.marketing p{
+    font-size: 15px;
+    margin-left: 5px;}
+
+.marketing h2{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.marketing button{
+    width: 550px;
+    height: 65px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.txt-btn-marketing{
+    height: 220px;
+    width: 600px;
+    background-color: #ffe6ac;
+    margin-left: 100px;
+    margin-top: -29px;
+}
+
+/*Video*/
+
+.video{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.video img{
+    margin-left: 100px;
+    width: 420px;
+}
+
+.video p{
+    font-size: 15px;
+    margin-left: 5px;}
+
+.video h2{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.video button{
+    width: 350px;
+    height: 65px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.txt-btn-video{
+    height: 220px;
+    width: 420px;
+    background-color: #ffe6ac;
+    margin-left: 100px;
+    margin-top: -29px;
+}
+
+/*Web*/
+
+.web{
+    margin-left: -80px;
+    margin-top: 20px;
+}
+
+.web img{
+    margin-left: 100px;
+    width: 420px;
+}
+
+.web p{
+    font-size: 15px;
+    margin-left: 5px;}
+
+.web h2{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.web button{
+    width: 350px;
+    height: 65px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.txt-btn-web{
+    height: 220px;
+    width: 420px;
+    background-color: #ffe6ac;
+    margin-left: 100px;
+    margin-top: -29px;
+}
+
+
+/*Print*/
+
+.print{
+    margin-left: -80px;
+    margin-top: 20px;
+}
+
+.print img{
+    margin-left: 100px;
+    width: 420px;
+}
+
+.print p{
+    font-size: 15px;
+    margin-left: 5px;}
+
+.print h2{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.print button{
+    width: 350px;
+    height: 65px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.txt-btn-print{
+    height: 220px;
+    width: 420px;
+    background-color: #ffe6ac;
+    margin-left: 100px;
+    margin-top: -29px;
+}
+
+/*Our Vision*/
+
+.vision{
+    background: url(images/vision.jpg) center;
+    background-size: cover;
+    height: 300px;
+    width: 1300px;
+    margin-left: 300px;
+}
+
+.vision h1{
+    color: white;
+    margin-left: 100px;
+}
+
+.vision p{
+    color: white;
+    margin-left: 100px;
+}
+
+.vision button{
+    height: 100px;
+    width: 200px;
+    border: #c68d00 solid 1.5px;
+    background-color: #132238;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+/*Our Team*/
+
+.people{
+    background-color: #ffe6ac;
+    width: 1200px;
+    height: 800px;
+    margin-left: 350px;
+}
+
+.team h1{
+    margin-left: 350px;
+}
+
+/*John*/
+
+.john h2{
+    float: right;
+    margin-right: 470px;
+}
+
+.john h5{
+    float: right;
+    margin-top: -350px;
+    margin-right: 461px;
+}
+
+.john hr{
+    float: right;
+    width: 560px;
+    background-color: #c68d00;
+    height: 3px;
+    border: none;
+    margin-top: -320px;
+    margin-right: 20px;
+}
+
+.john p{
+    float: right;
+    margin-top: -300px;
+    margin-right: 20px;
+}
+
+/*Bob*/
+
+.bob img{
+    margin-left: 600px;
+    margin-top: -5px;
+}
+
+.bob h2{
+    float: left;
+    margin-top: -380px;
+    margin-left: 10px;
+}
+
+.bob h5{
+    float: left;
+    margin-top: -350px;
+    margin-left: 10px;
+}
+
+.bob hr{
+    float: left;
+    width: 560px;
+    background-color: #c68d00;
+    height: 3px;
+    border: none;
+    margin-top: -320px;
+    margin-left: 10px;
+}
+
+.bob p{
+    float: left;
+    margin-top: -300px;
+    margin-left: 10px;
+}
+
+/*Contact Us*/
+
+.message h1{
+    margin-left: 0px;
+}
+
+.message{
+    margin-left: 400px;
+}
+
+.message input{
+    width: 500px;
+    padding: 3px 10px;
+    margin: 8px 0;
+    display: block;
+}
+
+.message label{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#message{
+    height: 100px;
+}
+
+#send{
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    background-color: black;
+    border: none;
+    color: #c68d00;
+}
+
+/*IFrame Map*/
+
+.location{
+    margin-left: 1000px;
+    margin-top: -620px;
+    margin-bottom: 200px;
+}
+
+.map iframe{
+    width: 500px;
+    height: 350px;
+}
+
+/*Hours of operation*/
+
+.hours h2{
+    margin-left: 400px;
+}
+
+.hours table{
+    width: 1100px;
+}
+
+.hours table, tr{
+    margin-left: 400px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.hours th {
+    height: 40px;
+    text-align: center;
+    background-color: #ffe6ac;
+    color: black;
+}
+
+.hours td{
+    height: 40px;
+}
+
+.hours td, .hours th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/*Footer*/
+
+.footer{
+    height: 100px;
+    color: #c68d00;
+    background-color: black;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+footer{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+}
+
+/*Mobile Queries*/
+
+@media screen and (max-width: 400px){
+
+    .nav-bar{
+        background-color: #222222;
+        width: 400px;
+        margin-left: -8px;
+        margin-top: -8px;
+    }
+    .nav-bar img{
+        width: 100px;
+    }
+
+    .nav-bar ul{
+        list-style: none;
+        text-align: center;
+    }
+
+    .nav-bar ul li{
+        padding: 10px;
+        color: #c68d00;
+    }
+
+    #home{
+        color: #222222;
+        background-color: #c68d00;
+    }
+
+    #search{
+        width: 100%;
+        margin-left: -40px;
+        height: 25px;
+    }
+
+    #mag{
+        width: 25px;
+        height: 25px;
+        border-top:    2px solid #c68d00;
+        border-right:  2px solid #c68d00; 
+        border-bottom: 2px solid #c68d00;
+    }
+
+    /*Welcome*/
+    #welcome{
+        margin-top: -20px;
+        margin-left: -8px;
+        width: 400px;
+        background: url(images/main-banner.jpg) center no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+    
+    .txt-btn{
+        background: rgba(46, 49, 49, 0.9);
+        height: 300px;
+        width: 400px;
+        position: absolute;
+        margin-top: 50px;
+    }
+    
+    .txt-btn h1{
+        font-size: 40px;
+        text-align: left;
+        color: white;
+        margin-left: 20px;
+        margin-top: -2px;
+    }
+    
+    .txt-btn p{
+        font-size: 13px;
+        color: white;
+        margin-left: 20px;
+        margin-top: -30px;
+    
+    }
+    
+    .txt-btn button{
+        height: 60px;
+        width: 180px;
+        font-size: 18px;
+        background-color: #c68d00;
+        border: none;
+        margin-left: 20px;
+    }
+    
+    #arrow{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+    /*About*/
+    .about{
+        height: 350px;
+        width: 400px;
+        margin-left: -8px;
+        background-color: #ffe6ac;
+    }
+    
+    .about h1{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    
+    .about p{
+        margin-left: 10px;
+        font-size: 5px;
+    }
+    
+    .about img{
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 375px;
+    }
+
+    /*Our Services*/
+    .services h1{
+        font-size: 40px;
+    }
+    /*Digital*/
+    .digital img{
+        width: 400px;
+        margin-left: -8px;
+    }
+
+    .digital h2{
+        margin-left: 10px;
+    }
+
+    .digital p{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .digital button{
+        width: 150px;
+        height: 65px;
+        background-color: #222222;
+        color: white;
+        border: none;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .txt-btn-digital{
+        height: 220px;
+        width: 400px;
+        background-color: #ffe6ac;
+        margin-left: -8px;
+        margin-top: -29px;
+    }
+
+    /*Marketing*/
+
+    .marketing{
+        margin-top: 10px;
+    }
+
+    .marketing img{
+        width: 400px;
+        margin-left: -8px;
+    }
+
+    .marketing h2{
+        margin-left: 10px;
+    }
+
+    .marketing p{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .marketing button{
+        width: 150px;
+        height: 65px;
+        background-color: #222222;
+        color: white;
+        border: none;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .txt-btn-marketing{
+        height: 220px;
+        width: 400px;
+        background-color: #ffe6ac;
+        margin-left: -8px;
+        margin-top: -29px;
+    }
+
+    /*Video*/
+
+    .video{
+        margin-top: 10px;
+    }
+
+    .video img{
+        width: 400px;
+        margin-left: -8px;
+    }
+
+    .video h2{
+        margin-left: 10px;
+    }
+
+    .video p{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .video button{
+        width: 150px;
+        height: 65px;
+        background-color: #222222;
+        color: white;
+        border: none;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .txt-btn-video{
+        height: 220px;
+        width: 400px;
+        background-color: #ffe6ac;
+        margin-left: -8px;
+        margin-top: -29px;
+    }
+
+    /*Web*/
+
+    .web{
+        margin-top: 10px;
+    }
+
+    .web img{
+        width: 400px;
+        margin-left: -8px;
+    }
+
+    .web h2{
+        margin-left: 10px;
+    }
+
+    .web p{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .web button{
+        width: 150px;
+        height: 65px;
+        background-color: #222222;
+        color: white;
+        border: none;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .txt-btn-web{
+        height: 220px;
+        width: 400px;
+        background-color: #ffe6ac;
+        margin-left: -8px;
+        margin-top: -29px;
+    }
+
+    /*Print*/
+
+    .print{
+        margin-top: 10px;
+    }
+
+    .print img{
+        width: 400px;
+        margin-left: -8px;
+    }
+
+    .print h2{
+        margin-left: 10px;
+    }
+
+    .print p{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .print button{
+        width: 150px;
+        height: 65px;
+        background-color: #222222;
+        color: white;
+        border: none;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .txt-btn-print{
+        height: 220px;
+        width: 400px;
+        background-color: #ffe6ac;
+        margin-left: -8px;
+        margin-top: -29px;
+    }
+
+    /*Our Vision*/
+
+    .vision{
+        background: url(images/vision.jpg) center;
+        background-size: cover;
+        height: 300px;
+        width: 400px;
+        margin-left: -8px;
+    }
+
+    .vision h1{
+        color: white;
+        margin-left: 10px;
+    }
+
+    .vision p{
+      color: white;
+      margin-left: 10px;
+      font-size: 10px;
+    }
+
+    .vision button{
+        height: 80px;
+        width: 180px;
+        border: #c68d00 solid 1.5px;
+        background-color: #132238;
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    /*Our Team*/
+
+    .people{
+        background-color: #ffe6ac;
+        width: 425px;
+        height: 1100px;
+        margin-left: -11px;
+    }
+
+    .team h1{
+        margin-left: 0px;
+    }
+
+    /*John*/
+
+    .john h2{
+        float: bottom;
+        margin-left: 10px;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+
+    .john h5{
+        float: bottom;
+        margin-top: 0px;
+        margin-left: 13px;
+        font-weight: bold;
+    }
+
+    .john hr{
+        float: bottom;
+        width: 400px;
+        background-color: #c68d00;
+        height: 3px;
+        border: none;
+        margin-left: 10px;
+        
+    }
+
+    .john img{
+        width: 435px;
+        margin-left: -11px;
+    }
+
+    .john p{
+        float: bottom;
+        margin-left: 10px;
+    }
+
+    /*Bob*/
+
+   
+
+    .bob h2{
+        float: bottom;
+        margin-left: 10px;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+
+    .bob h5{
+        float: bottom;
+        margin-top: 0px;
+        margin-left: 13px;
+        font-weight: bold;
+    }
+
+    .bob hr{
+        float: bottom;
+        width: 400px;
+        background-color: #c68d00;
+        height: 3px;
+        border: none;
+        margin-left: 10px;
+        
+    }
+
+    .bob img{
+        width: 435px;
+        margin-left: -11px;
+        margin-top: 20px;
+    }
+
+    .bob p{
+        float: bottom;
+        margin-left: 10px;
+    }
+
+    /*Contact Us*/
+
+    .message h1{
+        margin-left: -00px;
+    }
+
+    .message input{
+        width: 350px;
+        padding: 3px 10px;
+        margin: 8px 0;
+        display: block;
+    }
+
+    .message label{
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    #message{
+        height: 100px;
+    }
+
+    #send{
+        height: 30px;
+        width: 60px;
+        font-size: 15px;
+        background-color: black;
+        border: none;
+        color: #c68d00;
+    }
+
+    /*Hours of operation*/
+
+    .hours h2{
+        margin-left: 00px;
+    }
+
+    .hours table{
+        width: 390px;
+    }
+
+    .hours table, tr{
+        margin-left: 00px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .hours th {
+        height: 40px;
+        text-align: center;
+        background-color: #ffe6ac;
+        color: black;
+    }
+
+    .hours td{
+        height: 40px;
+    }
+
+    .hours td, .hours th {
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+    /*IFrame Map*/
+
+    .location{
+        margin-left: 000px;
+        margin-top: 0px;
+    }
+
+    .map iframe{
+        width: 375px;
+        height: 350px;
+    }
+
+    
+
+    /*Footer*/
+
+    .footer{
+        height: 100px;
+        color: #c68d00;
+        background-color: black;
+        font-size: 13px;
+        text-decoration: none;
+    }
+
+    footer{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    
+ 
+
+}
